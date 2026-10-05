@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IR & Neuro Cath Lab Inventory Count</title>
+<meta name="description" content="Offline-capable physical inventory count app for IR and Neuro cath labs. © 2026 Shadi Al Rawashdeh.">
+<meta name="author" content="Shadi Al Rawashdeh">
+<meta name="copyright" content="© 2026 Shadi Al Rawashdeh (shadirawa@gmail.com). All rights reserved.">
+<meta name="theme-color" content="#1B3A6B">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<!--
+  IR & Neuro Cath Lab Inventory Count — © 2026 Shadi Al Rawashdeh (shadirawa@gmail.com). All rights reserved.
+  Device data: Copyright © 2026 shadirawa-ship-it, CC BY-NC-ND 4.0. Educational reference only; not for clinical decision-making.
+-->
+<header id="topbar" hidden>
+  <div class="brand">IR &amp; Neuro Cath Lab <span>Inventory Count</span></div>
+  <nav id="tabs">
+    <button data-view="count" class="active">Count Sheet</button>
+    <button data-view="dash">Dashboard</button>
+    <button data-view="nor">Not On Register</button>
+    <button data-view="dev">Device Catalog</button>
+    <button data-view="help">How To</button>
+  </nav>
+  <div class="right">
+    <span id="netState" class="pill">online</span>
+    <button id="userBtn" class="user"></button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer>© 2026 Shadi Al Rawashdeh (shadirawa@gmail.com). All rights reserved. Unauthorized copying, distribution or modification is prohibited. Educational reference; not for clinical decision-making.</footer>
+
+<dialog id="dlg"></dialog>
+<div id="toast"></div>
+
+<script src="vendor/xlsx.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+IR & Neuro Cath Lab Inventory Count (web app)
+Copyright (c) 2026 Shadi Al Rawashdeh (shadirawa@gmail.com). All rights reserved.
+
+No part of this software, its design, or its data files may be copied, distributed,
+modified, sublicensed or used commercially without the prior written permission of the
+copyright holder. Viewing and personal/internal use of the published web app is permitted.
+
+Device database (data/devices.json): Copyright (c) 2026 shadirawa-ship-it, licensed under
+CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/). Educational reference
+only; NOT for clinical decision-making. Device data is sourced from manufacturer IFU documents.
+
+Third-party: vendor/xlsx.min.js is SheetJS / xlsx-js-style, used under its own Apache-2.0 license.
